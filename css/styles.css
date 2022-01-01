@@ -1,3 +1,36 @@
+:root{
+    --blue:#2273F8;
+}
+
 *{
     font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background: var(--blue);
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    padding: 2rem 7%;
 }
