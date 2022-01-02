@@ -142,7 +142,7 @@ header{
     padding-top: 6rem;
 }
 .home .image img{
-    width: 100%;
+    width: 130%;
 }
 .home .content{
     flex: 1 1 40rem;
@@ -219,6 +219,7 @@ header{
 }
 
 /* features section */
+
 .features{
     min-height: 100vh;
     text-align: center;
@@ -269,6 +270,169 @@ header{
     padding:1rem 0;
 }
 
+/* product section */
+
+.product{
+    min-height: 100vh;
+    text-align: center;
+    background:#eee;
+    padding:1rem;
+    padding-top: 8rem;
+}
+
+.product .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.product .box-container .box{
+    margin:1rem;
+    background:#fff;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    padding:2rem 4rem;
+}
+
+.product .box-container .box h3{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:#444;
+}
+
+.product .box-container .box .price{
+    padding:1rem 0;
+    font-size: 3rem;
+    color:#333;
+    display: block;
+}
+
+.product .box-container .box img{
+    height:20rem;
+    width:20rem;
+    margin:1rem 0;
+}
+
+/* faq section */
+
+.faq{
+    text-align: center;
+    padding:.5rem;
+    padding-top: 8rem;
+    min-height: 100vh;
+}
+
+.faq .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.faq .row .image{
+    flex:1 1 40rem;
+    padding:.5rem;
+}
+
+.faq .row .image img{
+    height:65vh;
+    width:100%;
+}
+
+.faq .row .accordion-container{
+    flex:1 1 40rem;
+    padding:1rem;
+}
+
+.faq .row .accordion-container .accordion{
+    text-align: left;
+    padding:.5rem 0;
+}
+
+.faq .row .accordion-container .accordion .accordion-heading{
+    color:#fff;
+    background:var(--blue);
+    padding:1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.faq .row .accordion-container .accordion .accordion-content{
+    color:#333;
+    padding:1rem;
+    font-size: 1.3rem;
+    border:.2rem solid var(--blue);
+    display: none;
+}
+
+.faq .row .accordion-container .accordion:nth-child(1) .accordion-content{
+    display: block;
+}
+
+/* footer */
+
+.footer{
+    background:#eee;
+}
+
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    flex:1 1 30rem;
+    margin:2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--blue);
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color:#333;
+    padding:1rem 0;
+}
+
+.footer .box-container .box p i{
+    padding:0 .5rem;
+    color:var(--blue);
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container .box a{
+    font-size: 1.8rem;
+    display:block;
+    color:#333;
+    padding:.5rem 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer .credit{
+    padding:2rem 1rem;
+    text-align: center;
+    background:#333;
+    color:#eee;
+    font-size: 2rem;
+}
+
+.footer .credit a{
+    color:#fff;
+}
+
+
+
+
 
 
 
@@ -309,6 +473,12 @@ header{
     }
     .home .content{
         text-align: center;
+    }
+    .home .image{
+        padding: 0;
+    }
+    .home .image img{
+        width: 700px;
     }
     .features .description{
         width: auto;
