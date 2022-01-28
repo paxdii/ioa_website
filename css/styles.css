@@ -385,7 +385,7 @@ header{
     width:100%;
 }
 .testimonial-heading{
-    margin: 30px 0px;
+    margin: 10px 0px;
     padding: 10px 20px;
     display: flex;
     flex-direction:column;
@@ -393,10 +393,9 @@ header{
     align-items: center;
 }
 .testimonial-box-container{
-    padding: 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap:wrap;
     width:100%;
 }
@@ -407,6 +406,7 @@ header{
     padding: 20px;
     margin: 15px;
     cursor: pointer;
+    text-align: left;
 }
 .profile-img{
     width:50px;
@@ -513,7 +513,7 @@ header{
     text-align: center;
     background:#333;
     color:#eee;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer .credit a{
